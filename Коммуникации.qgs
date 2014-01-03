@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>14833939.92154522240161896</xmin>
-            <ymin>5489969.81479958351701498</ymin>
-            <xmax>14836602.75907820463180542</xmax>
-            <ymax>5491656.73434069659560919</ymax>
+            <xmin>14833894.09527348540723324</xmin>
+            <ymin>5489589.7451613275334239</ymin>
+            <xmax>14836556.93280648253858089</xmax>
+            <ymax>5491276.66470244992524385</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,15 +23,15 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая магистраль канализация" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_магистраль_канализация20140104000140611" visible="1"/>
-            </filegroup>
-        </legendlayer>
+    <legend updateDrawingOrder="true" activeLayer="общая_магистраль_канализация20140104002551378">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая колодцы канализация" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_колодцы_канализация20140104000130269" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="общая_колодцы_канализация20140104002628091" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая магистраль канализация" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="общая_магистраль_канализация20140104002551378" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="osm_Arsenev_17" showFeatureCount="0">
@@ -112,7 +112,7 @@
             <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_колодцы_канализация20140104000130269</id>
+            <id>общая_колодцы_канализация20140104002628091</id>
             <datasource>./общая колодцы канализация.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -312,7 +312,7 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_магистраль_канализация20140104000140611</id>
+            <id>общая_магистраль_канализация20140104002551378</id>
             <datasource>./общая магистраль канализация.shp</datasource>
             <title></title>
             <abstract></abstract>
