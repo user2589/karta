@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>14831257.15616823174059391</xmin>
-            <ymin>5484692.36617370322346687</ymin>
-            <xmax>14843326.17323431931436062</xmax>
-            <ymax>5492338.14271043613553047</ymax>
+            <xmin>14835220.93355589732527733</xmin>
+            <ymin>5489519.1499365521594882</ymin>
+            <xmax>14836729.56068916991353035</xmax>
+            <ymax>5490474.87200365122407675</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,15 +23,15 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="общая_колодцы_канализация20140104170054037">
+    <legend updateDrawingOrder="true" activeLayer="общая_колодцы_канализация20140104175627797">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая магистраль канализация" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_магистраль_канализация20140104165951810" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="общая_магистраль_канализация20140104175543936" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая колодцы канализация" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_колодцы_канализация20140104170054037" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="общая_колодцы_канализация20140104175627797" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="osm_Arsenev_17" showFeatureCount="0">
@@ -45,6 +45,28 @@
             </filegroup>
         </legendlayer>
     </legend>
+    <mapcanvas>
+        <units>degrees</units>
+        <extent>
+            <xmin>-743.1436903413540449</xmin>
+            <ymin>-3102.09842192059659283</ymin>
+            <xmax>2134.55259226303542164</xmax>
+            <ymax>-1608.15636247415045545</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                <srsid>3452</srsid>
+                <srid>4326</srid>
+                <authid>EPSG:4326</authid>
+                <description>WGS 84</description>
+                <projectionacronym>longlat</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>true</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
     <projectlayers layercount="4">
         <maplayer minimumScale="0" maximumScale="1e+08" ol_layer_type="4" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
             <id>OpenLayers_plugin_layer20140104170017274</id>
@@ -105,7 +127,7 @@
             <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_колодцы_канализация20140104170054037</id>
+            <id>общая_колодцы_канализация20140104175627797</id>
             <datasource>./общая колодцы канализация.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -305,7 +327,7 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_магистраль_канализация20140104165951810</id>
+            <id>общая_магистраль_канализация20140104175543936</id>
             <datasource>./общая магистраль канализация.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -507,14 +529,36 @@
         </maplayer>
     </projectlayers>
     <properties>
-        <SpatialRefSys>
-            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-            <ProjectCRSID type="int">3857</ProjectCRSID>
-            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-        </SpatialRefSys>
+        <WMSContactPerson type="QString"></WMSContactPerson>
+        <WMSOnlineResource type="QString"></WMSOnlineResource>
+        <WMSContactOrganization type="QString"></WMSContactOrganization>
+        <WMSKeywordList type="QStringList">
+            <value></value>
+        </WMSKeywordList>
+        <WFSUrl type="QString"></WFSUrl>
         <Paths>
             <Absolute type="bool">false</Absolute>
         </Paths>
+        <WMSServiceTitle type="QString"></WMSServiceTitle>
+        <WFSLayers type="QStringList"/>
+        <WMSContactMail type="QString"></WMSContactMail>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+            <DegreeFormat type="QString">D</DegreeFormat>
+        </PositionPrecision>
+        <WMSContactPhone type="QString"></WMSContactPhone>
+        <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+        <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+        <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+        <Measure>
+            <Ellipsoid type="QString">NONE</Ellipsoid>
+        </Measure>
+        <WFSTLayers>
+            <Insert type="QStringList"/>
+            <Update type="QStringList"/>
+            <Delete type="QStringList"/>
+        </WFSTLayers>
         <Gui>
             <SelectionColorBluePart type="int">0</SelectionColorBluePart>
             <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
@@ -524,9 +568,28 @@
             <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
             <CanvasColorBluePart type="int">255</CanvasColorBluePart>
         </Gui>
-        <PositionPrecision>
-            <DecimalPlaces type="int">2</DecimalPlaces>
-            <Automatic type="bool">true</Automatic>
-        </PositionPrecision>
+        <Identify>
+            <disabledLayers type="QStringList"/>
+        </Identify>
+        <Macros>
+            <pythonCode type="QString"></pythonCode>
+        </Macros>
+        <WMSAccessConstraints type="QString"></WMSAccessConstraints>
+        <SpatialRefSys>
+            <ProjectCRSProj4String type="QString">+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3857</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
+        <DefaultStyles>
+            <Fill type="QString"></Fill>
+            <Line type="QString"></Line>
+            <Marker type="QString"></Marker>
+            <RandomColors type="bool">true</RandomColors>
+            <AlphaInt type="int">255</AlphaInt>
+            <ColorRamp type="QString"></ColorRamp>
+        </DefaultStyles>
+        <WMSFees type="QString"></WMSFees>
+        <WMSUrl type="QString"></WMSUrl>
     </properties>
 </qgis>
