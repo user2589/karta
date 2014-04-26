@@ -1,13 +1,14 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.0.1-Dufour">
+<qgis projectname="" version="2.2.0-Valmiera">
     <title></title>
+    <relations/>
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>14833770.89782248996198177</xmin>
-            <ymin>5489737.77610671520233154</ymin>
-            <xmax>14836362.01591556705534458</xmax>
-            <ymax>5491379.26106041669845581</ymax>
+            <xmin>14833165.92132271081209183</xmin>
+            <ymin>5487836.29453300684690475</ymin>
+            <xmax>14838496.61485422775149345</xmax>
+            <ymax>5491213.31283570826053619</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -22,31 +23,39 @@
                 <geographicflag>false</geographicflag>
             </spatialrefsys>
         </destinationsrs>
+        <layer_coordinate_transform_info>
+            <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="зоны_ответственности_жилищных_компаний20140221193151184"/>
+        </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="общая_колодцы_канализация20140225002340751">
+    <legend updateDrawingOrder="true" activeLayer="OpenLayers_plugin_layer20140104170017274">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="рекламные конструкции" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="рекламные_конструкции20140427013014471" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая магистраль канализация" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_магистраль_канализация20140225002340766" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="общая_магистраль_канализация20140301203401927" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая колодцы канализация" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_колодцы_канализация20140225002340751" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="общая_колодцы_канализация20140301203401913" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая сети вода" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_сети_вода20140225002305473" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="общая_сети_вода20140301203259366" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая колодцы вода" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_колодцы_вода20140225002305443" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="общая_колодцы_вода20140301203259338" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая задвижки вода" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="общая_задвижки_вода20140225002305392" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="общая_задвижки_вода20140301203259318" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="общая колодцы тепло" showFeatureCount="0">
@@ -59,14 +68,19 @@
                 <legendlayerfile isInOverview="0" layerid="общая_магистраль_тепло20140224231132930" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="зоны ответственности жилищных компаний" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="зоны ответственности жилищных компаний" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="зоны_ответственности_жилищных_компаний20140221193151184" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="зоны_ответственности_жилищных_компаний20140221193151184" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="osm_Arsenev_17" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="osm_Arsenev_1720140104165836671" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="градостроительный план" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="градостроительный_план20140427013213699" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OpenStreetMap" showFeatureCount="0">
@@ -75,10 +89,10 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="10">
+    <projectlayers layercount="12">
         <maplayer minimumScale="0" maximumScale="1e+08" ol_layer_type="4" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
             <id>OpenLayers_plugin_layer20140104170017274</id>
-            <datasource>.</datasource>
+            <datasource>/media/500Gb/Downloads/karta</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -134,7 +148,42 @@
             </pipe>
             <blendMode>0</blendMode>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>градостроительный_план20140427013213699</id>
+            <datasource>./градостроительный план.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>градостроительный план</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>зоны_ответственности_жилищных_компаний20140221193151184</id>
             <datasource>./зоны ответственности жилищных компаний.shp</datasource>
             <title></title>
@@ -173,8 +222,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -326,17 +375,18 @@
                 <edittype labelontop="0" editable="1" type="0" name="number"/>
                 <edittype labelontop="0" editable="1" type="0" name="style"/>
             </edittypes>
-            <editform>.</editform>
+            <editform>/media/500Gb/Downloads/karta</editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_задвижки_вода20140225002305392</id>
-            <datasource>../../Downloads/karta Эванс/общая задвижки вода.shp</datasource>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>общая_задвижки_вода20140301203259318</id>
+            <datasource>./общая задвижки вода.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -365,19 +415,22 @@
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
                             <prop k="name" v="circle"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_style" v="solid"/>
                             <prop k="outline_width" v="0"/>
                             <prop k="outline_width_unit" v="MM"/>
                             <prop k="scale_method" v="area"/>
                             <prop k="size" v="2"/>
                             <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -526,17 +579,18 @@
                 <edittype labelontop="0" editable="1" type="0" name=" -"/>
                 <edittype labelontop="0" editable="1" type="0" name="id"/>
             </edittypes>
-            <editform></editform>
+            <editform>/media/500Gb/Downloads/karta</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
-            <editorlayout>generatedlayout</editorlayout>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
+            <editorlayout>uifilelayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_колодцы_вода20140225002305443</id>
-            <datasource>../../Downloads/karta Эванс/общая колодцы вода.shp</datasource>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>общая_колодцы_вода20140301203259338</id>
+            <datasource>./общая колодцы вода.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -565,19 +619,22 @@
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,0,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
                             <prop k="name" v="circle"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_style" v="solid"/>
                             <prop k="outline_width" v="0"/>
                             <prop k="outline_width_unit" v="MM"/>
                             <prop k="scale_method" v="area"/>
                             <prop k="size" v="2"/>
                             <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -726,17 +783,18 @@
                 <edittype labelontop="0" editable="1" type="0" name=" -"/>
                 <edittype labelontop="0" editable="1" type="0" name="id"/>
             </edittypes>
-            <editform></editform>
+            <editform>/media/500Gb/Downloads/karta</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_колодцы_канализация20140225002340751</id>
-            <datasource>../../Downloads/karta Эванс/общая колодцы канализация.shp</datasource>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>общая_колодцы_канализация20140301203401913</id>
+            <datasource>./общая колодцы канализация.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -765,19 +823,22 @@
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,255,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
                             <prop k="name" v="circle"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_style" v="solid"/>
                             <prop k="outline_width" v="0"/>
                             <prop k="outline_width_unit" v="MM"/>
                             <prop k="scale_method" v="area"/>
                             <prop k="size" v="2"/>
                             <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -928,15 +989,16 @@
                 <edittype labelontop="0" editable="1" type="0" name="FID"/>
                 <edittype labelontop="0" editable="1" type="0" name="id"/>
             </edittypes>
-            <editform></editform>
+            <editform>/media/500Gb/Downloads/karta</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>общая_колодцы_тепло20140224232154197</id>
             <datasource>./общая колодцы тепло.shp</datasource>
             <title></title>
@@ -967,19 +1029,22 @@
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
                             <prop k="name" v="circle"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_style" v="solid"/>
                             <prop k="outline_width" v="0"/>
                             <prop k="outline_width_unit" v="MM"/>
                             <prop k="scale_method" v="area"/>
                             <prop k="size" v="2"/>
                             <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -1129,17 +1194,18 @@
                 <edittype labelontop="0" editable="1" type="0" name="nam"/>
                 <edittype labelontop="0" editable="1" type="0" name="name"/>
             </edittypes>
-            <editform></editform>
+            <editform>/media/500Gb/Downloads/karta</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_магистраль_канализация20140225002340766</id>
-            <datasource>../../Downloads/karta Эванс/общая магистраль канализация.shp</datasource>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>общая_магистраль_канализация20140301203401927</id>
+            <datasource>./общая магистраль канализация.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1169,6 +1235,7 @@
                             <prop k="color" v="0,255,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_unit" v="MM"/>
@@ -1179,8 +1246,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -1329,15 +1396,16 @@
                 <edittype labelontop="0" editable="1" type="0" name="FID"/>
                 <edittype labelontop="0" editable="1" type="0" name="id"/>
             </edittypes>
-            <editform></editform>
+            <editform>/media/500Gb/Downloads/karta</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>общая_магистраль_тепло20140224231132930</id>
             <datasource>./общая магистраль тепло.shp</datasource>
             <title></title>
@@ -1369,6 +1437,7 @@
                             <prop k="color" v="255,0,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_unit" v="MM"/>
@@ -1379,8 +1448,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -1538,17 +1607,18 @@
                 <edittype labelontop="0" editable="1" type="0" name="tip"/>
                 <edittype labelontop="0" editable="1" type="0" name="ww"/>
             </edittypes>
-            <editform></editform>
+            <editform>/media/500Gb/Downloads/karta</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
-            <id>общая_сети_вода20140225002305473</id>
-            <datasource>../../Downloads/karta Эванс/общая сети вода.shp</datasource>
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>общая_сети_вода20140301203259366</id>
+            <datasource>./общая сети вода.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1578,6 +1648,7 @@
                             <prop k="color" v="0,0,255,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_unit" v="MM"/>
@@ -1588,8 +1659,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field="" scalemethod="area"/>
+                <rotation/>
+                <sizescale scalemethod="area"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -1738,9 +1809,93 @@
                 <edittype labelontop="0" editable="1" type="0" name=" -"/>
                 <edittype labelontop="0" editable="1" type="0" name="id"/>
             </edittypes>
-            <editform></editform>
+            <editform>/media/500Gb/Downloads/karta</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>рекламные_конструкции20140427013014471</id>
+            <datasource>./рекламные конструкции.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>рекламные конструкции</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="224,147,74,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="horizontal_anchor_point" v="1"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="outline_style" v="solid"/>
+                            <prop k="outline_width" v="0"/>
+                            <prop k="outline_width_unit" v="MM"/>
+                            <prop k="scale_method" v="area"/>
+                            <prop k="size" v="2"/>
+                            <prop k="size_unit" v="MM"/>
+                            <prop k="vertical_anchor_point" v="1"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties/>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Ubuntu"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>/media/500Gb/Downloads/karta</editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform>/media/500Gb/Downloads/karta</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
